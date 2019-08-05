@@ -63,7 +63,7 @@ html, body {
 }
 
 body {
-  background: #111111;
+  /* background: #111111; */
   font-family: "librebaskerville-regular", serif;
   font-size: 1.6rem;
   line-height: 3rem;
