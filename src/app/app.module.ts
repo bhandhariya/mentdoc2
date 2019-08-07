@@ -14,6 +14,7 @@ import { FeatureComponent } from './shared/feature/feature.component';
 import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.component';
 import { ModelComponent } from './shared/model/model.component';
 import { CounterComponent } from './shared/counter/counter.component';
+import { AchivementComponent } from './shared/achivement/achivement.component';
 
 
 
@@ -28,7 +29,8 @@ import { CounterComponent } from './shared/counter/counter.component';
     FeatureComponent,
     WhyChooseUsComponent,
     ModelComponent,
-    CounterComponent
+    CounterComponent,
+    AchivementComponent
   ],
   imports: [
     BrowserModule,
