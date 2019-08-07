@@ -12,6 +12,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { AboutUsComponent } from './shared/about-us/about-us.component';
 import { FeatureComponent } from './shared/feature/feature.component';
 import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.component';
+import { ModelComponent } from './shared/model/model.component';
+import { CounterComponent } from './shared/counter/counter.component';
 
 
 
@@ -24,7 +26,9 @@ import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.compo
     HeaderComponent,
     AboutUsComponent,
     FeatureComponent,
-    WhyChooseUsComponent
+    WhyChooseUsComponent,
+    ModelComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
