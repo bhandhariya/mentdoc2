@@ -17,6 +17,7 @@ import { CounterComponent } from './shared/counter/counter.component';
 import { AchivementComponent } from './shared/achivement/achivement.component';
 import { TestimonialComponent } from './shared/testimonial/testimonial.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { SecutiryComponent } from './secutiry/secutiry.component';
 
 
 
@@ -34,7 +35,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     CounterComponent,
     AchivementComponent,
     TestimonialComponent,
-    FooterComponent
+    FooterComponent,
+    SecutiryComponent
   ],
   imports: [
     BrowserModule,
