@@ -15,6 +15,8 @@ import { WhyChooseUsComponent } from './shared/why-choose-us/why-choose-us.compo
 import { ModelComponent } from './shared/model/model.component';
 import { CounterComponent } from './shared/counter/counter.component';
 import { AchivementComponent } from './shared/achivement/achivement.component';
+import { TestimonialComponent } from './shared/testimonial/testimonial.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 
@@ -30,7 +32,9 @@ import { AchivementComponent } from './shared/achivement/achivement.component';
     WhyChooseUsComponent,
     ModelComponent,
     CounterComponent,
-    AchivementComponent
+    AchivementComponent,
+    TestimonialComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
