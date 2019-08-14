@@ -1,0 +1,28 @@
+#footer{
+    margin-top:80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p{
+    font-size: 12px;
+    text-align: left;
+}
+#footer .city{
+    margin-left:17px;
+}
+#footer .fa{
+        padding-right:20px;
+        font-size:15px;  
+}

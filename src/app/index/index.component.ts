@@ -11,5 +11,7 @@ export class IndexComponent implements OnInit {
 
   ngOnInit() {
   }
+  // When the user scrolls the page, execute myFunction 
+
 
 }

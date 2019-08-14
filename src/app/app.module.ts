@@ -17,6 +17,7 @@ import { CounterComponent } from './shared/counter/counter.component';
 import { AchivementComponent } from './shared/achivement/achivement.component';
 import { TestimonialComponent } from './shared/testimonial/testimonial.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { NgScrollIndicatorModule } from 'ngx-scroll-indicator';
 
 
 
@@ -38,6 +39,7 @@ import { FooterComponent } from './shared/footer/footer.component';
   ],
   imports: [
     BrowserModule,
+    NgScrollIndicatorModule.forRoot(),
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,MatIconModule
