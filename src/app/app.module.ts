@@ -18,8 +18,9 @@ import { AchivementComponent } from './shared/achivement/achivement.component';
 import { TestimonialComponent } from './shared/testimonial/testimonial.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SecutiryComponent } from './secutiry/secutiry.component';
+import { NgScrollIndicatorModule } from 'ngx-scroll-indicator';
 
-
+import { ScrollToModule } from 'ng2-scroll-to-el';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { SecutiryComponent } from './secutiry/secutiry.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule,MatIconModule
+    MatMenuModule,MatIconModule,NgScrollIndicatorModule.forRoot(),
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
