@@ -6295,4 +6295,20 @@ h6 {
   }
 }
 
+#boxx{
+  width: 500px;
+  border: 1px solid wheat;
+  padding: 10px;
+  margin: 10px
+  
+}
+#boxxx{
+  width: 500px;
+  height: 600px;
+  border: 1px solid wheat;
+  padding: 10px;
+  margin: 10px
+  
+}
+
 /*# sourceMappingURL=style.css.map */
