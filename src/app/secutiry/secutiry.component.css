@@ -6307,8 +6307,21 @@ h6 {
   height: 600px;
   border: 1px solid wheat;
   padding: 10px;
-  margin: 10px
+  margin: 10px;
   
 }
 
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-form-field {
+  margin-right: 12px;
+}
 /*# sourceMappingURL=style.css.map */

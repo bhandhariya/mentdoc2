@@ -19,8 +19,11 @@ import { TestimonialComponent } from './shared/testimonial/testimonial.component
 import { FooterComponent } from './shared/footer/footer.component';
 import { SecutiryComponent } from './secutiry/secutiry.component';
 import { NgScrollIndicatorModule } from 'ngx-scroll-indicator';
-
+import {MatExpansionModule} from '@angular/material/expansion';
+import { MatInputModule } from "@angular/material/input";
+import { MatDatepickerModule } from "@angular/material/datepicker";
 import { ScrollToModule } from 'ng2-scroll-to-el';
+import { MatNativeDateModule } from '@angular/material/core';
 
 
 @NgModule({
@@ -42,7 +45,7 @@ import { ScrollToModule } from 'ng2-scroll-to-el';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule,MatExpansionModule,MatInputModule,MatDatepickerModule,MatNativeDateModule,
     MatMenuModule,MatIconModule,NgScrollIndicatorModule.forRoot(),
     ScrollToModule.forRoot()
   ],
