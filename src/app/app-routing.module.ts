@@ -6,6 +6,7 @@ import { SecutiryComponent } from './secutiry/secutiry.component';
 
 const routes: Routes = [
   {path:'',component:IndexComponent},
+  {path:'home',component:IndexComponent},
   {path:'security',component:SecutiryComponent}
 ];
 
