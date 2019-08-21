@@ -2313,7 +2313,7 @@ ul {
   height: 935px;
   position: relative;
   overflow: hidden;
-  background-image: url(../../assets/medison/img/banner_bg.png);
+  /* background-image: url(../../assets/medison/img/banner_bg.png); */
   background-repeat: no-repeat;
   background-size: 43% 100%;
   background-position: top right;
@@ -2494,9 +2494,10 @@ ul {
   width: 35%;
   height: 67%;
   content: "";
-  background-image: url(../../assets/medison/img/banner_img.png);
+  background-image: url(../../assets/images/medison/mentdoc-security.png);
   background-size: 100% 100%;
   right: 9%;
+  margin-top: -50px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2586,7 +2587,7 @@ ul {
 /* line 206, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_banner.scss */
 .banner_part .banner_item .single_item {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 10px;
   position: relative;
   z-index: 1;
 }
