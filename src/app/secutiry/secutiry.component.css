@@ -58,67 +58,66 @@ input:hover, input:focus {
 
 /* line 33, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
 .single_padding_top {
-  padding-top: 140px !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 33, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .single_padding_top {
-    padding-top: 70px !important;
+    
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 33, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .single_padding_top {
-    padding-top: 70px !important;
+   
   }
 }
 
 @media (max-width: 576px) {
   /* line 33, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .single_padding_top {
-    padding-top: 70px !important;
+   
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 33, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .single_padding_top {
-    padding-top: 80px !important;
+    
   }
 }
 
 /* line 48, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
 .padding_top {
-  padding-top: 140px;
+  
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 48, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .padding_top {
-    padding-top: 80px;
+    
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 48, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .padding_top {
-    padding-top: 70px;
+    
   }
 }
 
 @media (max-width: 576px) {
   /* line 48, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .padding_top {
-    padding-top: 70px;
+    
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 48, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
   .padding_top {
-    padding-top: 70px;
+
   }
 }
 
@@ -2310,7 +2309,7 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_banner.scss */
 .banner_part {
-  height: 935px;
+  height: 690px;
   position: relative;
   overflow: hidden;
   /* background-image: url(../../assets/medison/img/banner_bg.png); */
