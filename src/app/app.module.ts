@@ -24,6 +24,7 @@ import { MatInputModule } from "@angular/material/input";
 import { MatDatepickerModule } from "@angular/material/datepicker";
 import { ScrollToModule } from 'ng2-scroll-to-el';
 import { MatNativeDateModule } from '@angular/material/core';
+import { HeaderSecComponent } from './secutiry/shared/header-sec/header-sec.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     AchivementComponent,
     TestimonialComponent,
     FooterComponent,
-    SecutiryComponent
+    SecutiryComponent,
+    HeaderSecComponent
   ],
   imports: [
     BrowserModule,
