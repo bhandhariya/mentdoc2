@@ -1,4 +1,4 @@
-#about{
+/*#about{
 	background-color: #f8f8f8;
 	display: inline;
 	float: left;
@@ -116,3 +116,17 @@
     float: right;
     font-size: 20px;
   }
+*/
+
+
+
+#about{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+#about .col-md-6{
+  padding:20px 10px; 
+}
+#about h3{
+  margin:20px auto;
+}

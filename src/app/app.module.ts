@@ -18,6 +18,8 @@ import { AchivementComponent } from './shared/achivement/achivement.component';
 import { TestimonialComponent } from './shared/testimonial/testimonial.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NgScrollIndicatorModule } from 'ngx-scroll-indicator';
+import { GalleryComponent } from './shared/gallery/gallery.component';
+import { FaqComponent } from './shared/faq/faq.component';
 
 
 
@@ -35,7 +37,9 @@ import { NgScrollIndicatorModule } from 'ngx-scroll-indicator';
     CounterComponent,
     AchivementComponent,
     TestimonialComponent,
-    FooterComponent
+    FooterComponent,
+    GalleryComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

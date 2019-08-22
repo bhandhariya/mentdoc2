@@ -1,4 +1,4 @@
-.site-section {
+*.site-section {
     padding: 2.5em 0; }
     @media (min-width: 768px) {
       .site-section {
@@ -55,3 +55,5 @@
 p{
     font-size: 15px
 }
+
+
