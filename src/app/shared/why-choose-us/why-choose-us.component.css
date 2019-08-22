@@ -1,3 +1,25 @@
 .myfeature{
 
 }
+#heading{
+    text-align: center
+}
+p{
+    font-size: 14px;
+    text-align: center;
+}
+.bigpart{
+    font-family: 'Times New Roman', Times, serif
+}
+mat-grid-tile {
+    
+}
+.smmm{
+    
+    border: 2px red;
+}
+#chooimg{
+    margin: 50px;
+    height: 86px;
+    margin-left: -27px
+}
