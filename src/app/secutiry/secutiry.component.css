@@ -991,27 +991,10 @@ ul {
 .feature_part .single_feature:hover span i {
   color: #fff;
 }
-
-/* line 182, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
-.single_feature_part {
-  padding-top: 140px;
+.single_feature{
+  padding: 100px;
+  border: 2px salmon;
 }
-
-@media (max-width: 991px) {
-  /* line 182, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
-  .single_feature_part {
-    padding-top: 45px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 182, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
-  .single_feature_part {
-    padding-top: 55px;
-  }
-}
-
-
 /************Team css start***************/
 /* line 2, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_our_ability.scss */
 .our_ability {
