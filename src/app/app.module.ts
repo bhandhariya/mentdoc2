@@ -25,6 +25,14 @@ import { MatDatepickerModule } from "@angular/material/datepicker";
 import { ScrollToModule } from 'ng2-scroll-to-el';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HeaderSecComponent } from './secutiry/shared/header-sec/header-sec.component';
+import { Security1Component } from './security1/security1.component';
+import { Sec1headerComponent } from './security1/sec1header/sec1header.component';
+import { Sec1bannerComponent } from './security1/sec1banner/sec1banner.component';
+import { Sec1datamixComponent } from './security1/sec1datamix/sec1datamix.component';
+import { Sec1featureComponent } from './security1/sec1feature/sec1feature.component';
+import { Sec1secureComponent } from './security1/sec1secure/sec1secure.component';
+import { Sec1secureplaceComponent } from './security1/sec1secureplace/sec1secureplace.component';
+import { Sec1footerComponent } from './security1/sec1footer/sec1footer.component';
 
 
 @NgModule({
@@ -42,7 +50,15 @@ import { HeaderSecComponent } from './secutiry/shared/header-sec/header-sec.comp
     TestimonialComponent,
     FooterComponent,
     SecutiryComponent,
-    HeaderSecComponent
+    HeaderSecComponent,
+    Security1Component,
+    Sec1headerComponent,
+    Sec1bannerComponent,
+    Sec1datamixComponent,
+    Sec1featureComponent,
+    Sec1secureComponent,
+    Sec1secureplaceComponent,
+    Sec1footerComponent
   ],
   imports: [
     BrowserModule,

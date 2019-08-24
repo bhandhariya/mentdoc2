@@ -1,0 +1,34 @@
+#heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px
+
+}
+.single_feature{
+    
+    border: 2px salmon;
+    padding: 100px;
+}
+.row{
+    width: 100%
+}
+.feature_part .single_feature_part {
+    
+    border: 1px solid #e4e6ea;
+    -webkit-transition: 1s;
+    transition: 1s;
+    
+}
+h4{
+    color: skyblue;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 25px
+}
+p{
+   
+}
+.single_feature_icon{
+    
+}
