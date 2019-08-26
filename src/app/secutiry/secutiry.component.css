@@ -1449,6 +1449,7 @@ ul {
 /* line 182, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
 .single_feature_part {
   padding-top: 140px;
+  height: 300px;
 }
 
 @media (max-width: 991px) {
