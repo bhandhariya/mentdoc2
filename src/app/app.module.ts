@@ -21,6 +21,7 @@ import { NgScrollIndicatorModule } from 'ngx-scroll-indicator';
 import { GalleryComponent } from './shared/gallery/gallery.component';
 import { FaqComponent } from './shared/faq/faq.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { ChooseComponent } from './shared/choose/choose.component';
 
 
 
@@ -39,7 +40,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     TestimonialComponent,
     FooterComponent,
     GalleryComponent,
-    FaqComponent
+    FaqComponent,
+    ChooseComponent
   ],
   imports: [
     BrowserModule,

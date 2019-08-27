@@ -1,6 +1,6 @@
 #counter{
 	background-attachment: fixed !important;
-	background-image: url("../../../assets/images/shutterbug.jpg");
+	/* background-image: url("../../../assets/images/shutterbug.jpg"); */
 	background-repeat: repeat;
 	background-size: cover;
 	color: #ffffff;
