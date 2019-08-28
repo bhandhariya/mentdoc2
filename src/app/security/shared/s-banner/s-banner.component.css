@@ -1,5 +1,6 @@
 .banner_item{
-  
+  margin:50px;
+  margin-top: 50px;
 }
 .left-part{
   width: 100%
@@ -23,4 +24,10 @@ margin-top: 10px;
 .banner-image img{
   margin-top: -50px;
   width: 100%; 
+}
+@media only screen and (min-width: 68px) and (max-width: 1190px) {
+  .left-part span{
+    
+    display: flex;
+  }
 }
