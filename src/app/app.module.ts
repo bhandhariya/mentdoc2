@@ -11,6 +11,7 @@ import { SBannerComponent } from './security/shared/s-banner/s-banner.component'
 import { SDataMixComponent } from './security/shared/s-data-mix/s-data-mix.component';
 import { SFeatureComponent } from './security/shared/s-feature/s-feature.component';
 import { SAlgoComponent } from './security/shared/s-algo/s-algo.component';
+import { SSecureComponent } from './security/shared/s-secure/s-secure.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { SAlgoComponent } from './security/shared/s-algo/s-algo.component';
     SDataMixComponent,
     SFeatureComponent,
     SAlgoComponent,
+    SSecureComponent,
     
   ],
   imports: [
