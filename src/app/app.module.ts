@@ -9,6 +9,7 @@ import { SecurityComponent } from './security/security.component';
 import { SHeaderComponent } from './security/shared/s-header/s-header.component';
 import { SBannerComponent } from './security/shared/s-banner/s-banner.component';
 import { SDataMixComponent } from './security/shared/s-data-mix/s-data-mix.component';
+import { SFeatureComponent } from './security/shared/s-feature/s-feature.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { SDataMixComponent } from './security/shared/s-data-mix/s-data-mix.compo
     SHeaderComponent,
     SBannerComponent,
     SDataMixComponent,
+    SFeatureComponent,
     
   ],
   imports: [
