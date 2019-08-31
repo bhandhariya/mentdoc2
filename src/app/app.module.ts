@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SecurityComponent } from './security/security.component';
 import { SHeaderComponent } from './security/shared/s-header/s-header.component';
 import { SBannerComponent } from './security/shared/s-banner/s-banner.component';
+import { SDataMixComponent } from './security/shared/s-data-mix/s-data-mix.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { SBannerComponent } from './security/shared/s-banner/s-banner.component'
     SecurityComponent,
     SHeaderComponent,
     SBannerComponent,
+    SDataMixComponent,
     
   ],
   imports: [
