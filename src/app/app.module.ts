@@ -14,6 +14,19 @@ import { FeaturesComponent } from './shared/features/features.component';
 import { ModalsComponent } from './shared/modals/modals.component';
 import { AchievmentsComponent } from './shared/achievments/achievments.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import{SecurityComponent} from './security/security.component';
+import {SHeaderComponent} from './security/shared/s-header/s-header.component';
+import {SBannerComponent} from './security/shared/s-banner/s-banner.component';
+import {SDataMixComponent} from './security/shared/s-data-mix/s-data-mix.component';
+import {SFeatureComponent} from './security/shared/s-feature/s-feature.component';
+import {SAlgoComponent} from './security/shared/s-algo/s-algo.component';
+import {SSecureComponent} from './security/shared/s-secure/s-secure.component';
+import { DownloadComponent } from './download/download.component';
+import {FirstComponent} from './download/shared/first/first.component';
+import {SecondComponent} from './download/shared/second/second.component';
+import {ThirdComponent} from './download/shared/third/third.component';
+import {FourthComponent} from './download/shared/fourth/fourth.component';
+import {FifthComponent} from './download/shared/fifth/fifth.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +41,20 @@ import { FooterComponent } from './shared/footer/footer.component';
     FeaturesComponent,
     ModalsComponent,
     AchievmentsComponent,
-    FooterComponent
+    FooterComponent,
+    SecurityComponent,
+    SHeaderComponent,
+    SBannerComponent,
+    SDataMixComponent,
+    SFeatureComponent,
+    SAlgoComponent,
+    SSecureComponent,
+    DownloadComponent,
+    FirstComponent,
+    SecondComponent,
+    ThirdComponent,
+    FourthComponent,
+    FifthComponent
   ],
   imports: [
     BrowserModule,
