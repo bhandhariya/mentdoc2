@@ -1,9 +1,16 @@
+section{
+    z-index: 1000;
+}
+/*nav{
+    position: fixed;
 
+}*/
 #header{
     background-image: url('../../../assets/images/mentdoc/admin/Mentdoc.png');
-    height: 80vh;
+    height: 99vh;
     background-size:cover;
     background-position: center; 
+    
 }
 .navbar nav li a{
     float:right;
@@ -22,3 +29,49 @@ nav .fa-bars{
     color: #fff !important;
     font-size: 26px;
 }
+
+/*#header{
+    background-image: url('../../../assets/images/mentdoc/admin/Mentdoc.png');
+    height: 99vh;
+    background-size:cover;
+    background-position: center; 
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100px;
+    padding:10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+nav .logo{
+    float: left;
+
+}
+nav .logo img{
+     height: 80px;
+     transition: .5s;
+
+}
+nav ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    list-style: 80px;
+    color:red;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+ */

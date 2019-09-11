@@ -2,6 +2,8 @@
 .services{
     background: #f1f1f1;
     text-align:center;
+    z-index: 600;
+
 }
 .services h1{
     display: inline-block;

@@ -3,6 +3,8 @@
 }
 .testimonial{
 	margin:50px auto;
+	z-index: 300;
+	
 }
 .testimonial h1{
 	text-align: center;
