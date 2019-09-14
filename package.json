@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node app",
+    "start": "node app.js",
     "heroku-postbuild": "ng build --prod",
     "build": "ng build",
     "test": "ng test",
@@ -47,7 +47,7 @@
     "typescript": "~3.5.3"
   },
   "engines": {
-    "node": "10.16.2",
-    "npm": "6.10.3"
+    "node": "10.15.3",
+    "npm": "6.10.2"
   }
 }
