@@ -27,7 +27,7 @@ import {SecondComponent} from './download/shared/second/second.component';
 import {ThirdComponent} from './download/shared/third/third.component';
 import {FourthComponent} from './download/shared/fourth/fourth.component';
 import {FifthComponent} from './download/shared/fifth/fifth.component';
-import { BlogComponent } from './blog/blog.component';
+
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import{ServiceComponent} from './service/service.component';
@@ -59,7 +59,7 @@ import{ServiceComponent} from './service/service.component';
     ThirdComponent,
     FourthComponent,
     FifthComponent,
-    BlogComponent,
+ 
     ContactComponent,
     AboutComponent,
     ServiceComponent

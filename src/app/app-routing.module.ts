@@ -6,7 +6,7 @@ import { DownloadComponent } from './download/download.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceComponent } from './service/service.component';
-import { BlogComponent } from './blog/blog.component';
+
 const routes: Routes = [
   {path:'',component:IndexComponent},
   {path:'home',component:IndexComponent},
@@ -15,7 +15,7 @@ const routes: Routes = [
   {path:'service',component:ServiceComponent},
   {path:'contact',component:ContactComponent},
   {path:'about',component:AboutComponent},
-  {path:'blog',component:BlogComponent}
+ 
 ];
 
 @NgModule({
