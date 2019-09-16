@@ -28,8 +28,9 @@ import {ThirdComponent} from './download/shared/third/third.component';
 import {FourthComponent} from './download/shared/fourth/fourth.component';
 import {FifthComponent} from './download/shared/fifth/fifth.component';
 import { BlogComponent } from './blog/blog.component';
-import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import{ServiceComponent} from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -59,8 +60,10 @@ import { ContactComponent } from './contact/contact.component';
     FourthComponent,
     FifthComponent,
     BlogComponent,
-    ServiceComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent,
+    ServiceComponent
+   
   ],
   imports: [
     BrowserModule,

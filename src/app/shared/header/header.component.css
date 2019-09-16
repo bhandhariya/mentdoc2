@@ -1,19 +1,19 @@
-section{
-    z-index: 1000;
-}
+
 /*nav{
     position: fixed;
 
 }*/
+
 #header{
     background-image: url('../../../assets/images/mentdoc/admin/Mentdoc.png');
     height: 99vh;
     background-size:cover;
     background-position: center; 
     
+    
 }
 .navbar nav li a{
-    float:right;
+    float:left;
     color:#fff!important;
 }
 .navbar-brand img{
