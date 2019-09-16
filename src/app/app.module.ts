@@ -31,6 +31,7 @@ import {FifthComponent} from './download/shared/fifth/fifth.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import{ServiceComponent} from './service/service.component';
+import {BlogComponent} from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import{ServiceComponent} from './service/service.component';
  
     ContactComponent,
     AboutComponent,
-    ServiceComponent
+    ServiceComponent,
+    BlogComponent
    
   ],
   imports: [
